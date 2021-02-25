@@ -1,0 +1,14 @@
+{
+  "author": "Chris Oakman <chris@oakmac.com> (http://chrisoakman.com/)",
+  "name": "clojurescript-tic-tac-toe",
+  "description": "Tic-Tac-Toe implemented in ClojureScript. Used as a teaching exercise for the Professional ClojureScript course (https://cljs.pro).",
+  "version": "1.0.0",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oakmac/clojurescript-tic-tac-toe.git"
+  },
+  "devDependencies": {
+    "shadow-cljs": "2.11.18"
+  }
+}

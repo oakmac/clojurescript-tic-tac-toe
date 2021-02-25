@@ -1,0 +1,14 @@
+{:source-paths
+ ["src-cljs"]
+
+ :dependencies
+ [[binaryage/oops "0.7.0"]]
+
+ :builds
+ {:app {:target :browser
+        :output-dir "public/js"
+        :modules {:main {:entries [com.oakmac.tic-tac-toe.core]}}
+        :devtools {:repl-init-ns com.oakmac.tic-tac-toe.core
+                   :repl-pprint true
+                   :http-root "public/"
+                   :http-port 9001}}}}
